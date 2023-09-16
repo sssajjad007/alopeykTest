@@ -2,6 +2,8 @@
 
 buildscript {
     ext {
+        
+        RNMapboxMapsImpl = "maplibre" // optional - as this is the default
         buildToolsVersion = "33.0.0"
         minSdkVersion = 21
         compileSdkVersion = 33
